@@ -21,6 +21,7 @@ public class FavoritesTest {
         assertEquals("Domain-Driven Design Distilled Vaughn Vernon",favPage.getItemName());
         favPage.clickOnRedHeart();
         favPage.reloadPage();
+        favPage.checkBoardVisibility();
 
     }
 }
